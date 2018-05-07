@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'first_ruby_gem'
+puts FirstRubyGem.hello(ARGV[0])
