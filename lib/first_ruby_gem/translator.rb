@@ -1,4 +1,4 @@
-class Translator
+class FirstRubyGem::Translator
   def initialize(language)
     @language = language
   end
@@ -6,9 +6,11 @@ class Translator
   def hello
     case @language
     when 'chinese'
-      puts '你好，ruby gem!'
+      '你好, ruby gem!'
+    when 'english'
+      'hello, ruby gem!'
     else
-      puts 'hello，ruby gem!'
+      'hello, ruby gem!'
     end
   end
 end
